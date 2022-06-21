@@ -1,0 +1,1539 @@
+.container {
+	min-width: 1440px;
+	position: absolute;
+      
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
+	
+	
+}
+
+.backgroud {
+	background: #000000;
+	
+}
+
+											/* Делаем шапку - логотип и меню */
+
+
+a:hover, a:visited, a:link, a:active {
+	color: #FFF; 
+}
+
+a.black:hover, a.black:visited, a.black:link, a.black:active{
+	color: black;
+}
+.logo {
+	position: absolute;
+	height: 31px;
+	width: 128px;
+	left: 0px;
+	top: 0px;
+	border-radius: 0px;
+	margin: 30px 0 0 152px;
+	
+}
+
+.business {
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	width: 102px;
+	margin: 35px 0 0 620px;
+
+}
+
+.featured {
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	margin: 34px 0 0 778px;
+}
+
+.gear {
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	margin: 34px 0 0 938px;
+}
+
+.contact {
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	margin: 34px 0 0 1050px;
+}
+
+.get {
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	margin: 24px 0 0 1145px;
+	padding: 9px 20px 13px 20px;
+	background: #FFFFFF;
+	border-radius: 14px;
+	letter-spacing: 0.4px;
+	height: 42px;
+	width: 155px;
+	left: 0px;
+	top: 0px;
+}
+
+													/* Делаем картинку главную */
+
+.moreigora {
+	position: absolute;
+	height: 716px;
+	margin-top: 85px;
+}
+
+.text1 {
+	position: absolute;
+	width: 263px;
+	height: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #C0C0C0;
+	margin: 466px 588px 230px 589px;
+}
+
+.text2 {
+	position: absolute;
+	width: 463px;
+	height: 60px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 54px;
+	line-height: 59px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 487px 488px 169px 489px;
+
+}
+
+.text3 {
+	position: absolute;
+	width: 580px;
+	height: 80px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #C0C0C0;
+	margin: 565px 430px 71px 430px;
+}
+
+.sekynda {
+	position: absolute;
+	
+	height: 16px;
+	width: 15.25px;
+	margin: 659px 303.37px 41px 1121.38px;
+
+}
+
+.sekyndatext {
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	color: #FFFFFF;
+	margin: 658px 249px 46px 1143px;
+}
+
+.fokys {
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	margin: 659px 217px 41px 1207px;
+}
+
+.fokystext {
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	color: #FFFFFF;
+	margin: 658px 193px 46px 1229px;
+
+}
+
+.isoo {
+	position: absolute;
+	height: 16px;
+	width: 32px;
+	margin: 659px 145px 41px 1263px;
+}
+
+.isootext {
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	color: #FFFFFF;
+	margin: 658px 118px 46px 1302px;
+}
+
+.city {
+	position: absolute;
+	height: 16px;
+	width: 10px;
+	margin: 659px 92px 41px 1338px;
+}
+
+.citytext {
+	position: absolute;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+color: #FFFFFF;
+margin: 658px 40px 46px 1353px;
+}
+
+												/*--делаем форму*/
+
+.name {
+	position: absolute;
+
+font-family: 'Poppins';
+font-style: normal;
+color: #FFFFFF;
+font-weight: 300;
+font-size: 20px;
+line-height: 22px;
+text-align: center;
+
+margin: 670px 596px 1403px 580px;
+}
+
+.btn {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 10px 10px 0;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	
+}
+
+
+										/* второй ряд картинок с надписями*/
+
+.what	{
+	position: absolute;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+margin: 913px 596px 1403px 596px;
+border-radius: 10px;
+}
+
+.the {
+	position: absolute;
+	width: 413px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 30px;
+	text-align: center;
+	color: #C0C0C0;
+	margin: 970px 513px 1358px 514px;
+
+}
+
+.clock {
+	position: absolute;
+	height: 600px;
+	width: 576px;
+	margin: 1042px 728px 716px 136px;
+	
+}
+.pir {
+	position: absolute;
+	height: 600px;
+	width: 576px;
+	margin: 1042px 136px 716px 728px;
+}
+
+.les {
+	position: absolute;
+	height: 600px;
+	width: 576px;
+	margin: 1658px 728px 100px 136px;
+}
+.olen {
+	position: absolute;
+	height: 600px;
+	width: 576px;
+	margin: 1658px 136px 100px 728px;
+}
+
+.prod {
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin: 1463px 1052px 855px 166px;
+}
+
+.cras {
+	position: absolute;
+	width: 501px;
+	height: 80px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #C0C0C0;
+	margin: 1493px 773px 785px 166px;
+}
+
+.read1 {
+	position: absolute;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0.4px;
+color: #000000;
+margin: 1570px 1131px 746px 166px;
+padding: 9px 10px 13px 42px;
+background: #FFFFFF;
+border-radius: 14px;
+width: 143px;
+height: 42px;
+
+}
+
+.vector1 {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	border: 12.5833px solid #000000;
+	border-radius: 13px;
+	margin: 1575px 1238px 751px 170px;
+	background-color: #000000;
+}
+
+.arc {
+	position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin: 1463px 415px 855px 758px;
+
+}
+
+.aenea {
+	position: absolute;
+width: 514px;
+height: 80px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+color: #C0C0C0;
+margin: 1493px 168px 785px 758px;
+}
+
+.read2 {
+		position: absolute;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0.4px;
+color: #000000;
+margin: 1570px 539px 746px 758px;
+padding: 9px 10px 13px 42px;
+background: #FFFFFF;
+border-radius: 14px;
+width: 143px;
+height: 42px;
+}
+
+.vector2 {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	border: 12.5833px solid #000000;
+	border-radius: 13px;
+	margin: 1575px 646px 751px 762px;
+	background-color: #000000;
+}
+
+.dron {
+	position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin: 2059px 1078px 279px 166px;
+}
+
+.mauris {
+	position: absolute;
+	width: 516px;
+	height: 80px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 2089px 758px 189px 166px;
+	
+color: #C0C0C0;
+}
+
+.read3 {
+	position: absolute;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0.4px;
+color: #000000;
+margin: 2186px 1131px 130px 166px;
+padding: 9px 10px 13px 42px;
+background: #FFFFFF;
+border-radius: 14px;
+width: 143px;
+height: 42px;
+}
+
+.vector3 {
+position: absolute;
+width: 32px;
+height: 32px;
+border: 12.5833px solid #000000;
+border-radius: 13px;
+margin: 2191px 1238px 135px 170px;
+background-color: #000000;
+}
+
+.wild	{
+	position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin: 2059px 467px 279px 758px;
+}
+
+.loremips {
+	position: absolute;
+	width: 480px;
+	height: 80px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 2089px 202px 189px 758px;
+	
+color: #C0C0C0;
+}
+
+.read4 {
+	position: absolute;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0.4px;
+color: #000000;
+margin: 2186px 539px 130px 758px;
+padding: 9px 10px 13px 42px;
+background: #FFFFFF;
+border-radius: 14px;
+width: 143px;
+height: 42px;
+}
+
+.vector4 {
+position: absolute;
+width: 32px;
+height: 32px;
+border: 12.5833px solid #000000;
+border-radius: 13px;
+margin: 2191px 636px 135px 762px;
+background-color: #000000;
+}
+
+							/* Третья картинка гора и озеро с надписями */
+
+.gora {
+	position: absolute;
+	height: 600px;
+	margin-top: 2358px ;
+
+}
+
+.sunset {
+	position: absolute;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin: 2618px 154px 320px 1080px;
+
+}
+
+.duis {
+	position: absolute;
+	width: 298px;
+	height: 60px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #C0C0C0;
+margin: 2638px 62px 260px 1080px;
+
+}
+.sekynda1 {
+	position: absolute;
+	height: 16px;
+	width: 15.25px;
+	margin: 2902px 265.37px 40px 1159.38px;
+	
+}
+.sekyndatext1 {
+	position: absolute;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+
+color: #FFFFFF;
+	height: 12px;
+width: 8px;
+margin: 2901px 251px 45px 1181px;
+
+
+}
+
+.fokys1 {
+	position: absolute;
+	height: 16px;
+width: 16px;
+margin: 2902px 219px 40px 1205px;
+
+}
+
+.fokystext1 {
+	position: absolute;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+
+color: #FFFFFF;
+	height: 12px;
+width: 22px;
+margin: 2901px 191px 45px 1227px;
+}
+
+.isoo1 {
+	position: absolute;
+	height: 16px;
+width: 32px;
+margin: 2902px 143px 40px 1265px;
+}
+
+.isootext1 {
+	position: absolute;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+
+color: #FFFFFF;
+	height: 12px;
+width: 24px;
+margin: 2901px 112px 45px 1304px;
+}
+
+.city1 {
+	position: absolute;
+	height: 16px;
+width: 10px;
+margin: 2902px 86px 40px 1344px;
+}
+
+.citytext1 {
+	position: absolute;
+
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	
+	
+	
+	color: #FFFFFF;
+	height: 12px;
+width: 41px;
+margin: 2901px 40px 45px 1359px;
+}
+
+	/* делаем картинку с фотиками и черным фоном с лева */
+
+.fotoapparat {
+	position: absolute;
+	height: 540px;
+width: 720px;
+margin: 2958px 0 0 720px;
+}
+
+.gears {
+	position: absolute;
+	height: 20px;
+	
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	
+	
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	
+	color: #C0C0C0;
+
+margin: 3131px 1204px 347px 100px;
+}
+
+.tools {
+	position: absolute;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+margin: 3157px 1037px 309px 100px;
+
+
+color: #FFFFFF;
+}
+
+.saythat {
+	position: absolute;
+	height: 80px;
+	width: 514px;
+	
+	
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+margin: 3203px 826px 215px 100px;
+
+color: #FFFFFF;
+
+}
+
+.cheakit {
+	position: absolute;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0.4px;
+color: #000000;
+margin: 3303px 1188px 1153px 100px;
+padding: 9px 10px 13px 42px;
+background: #FFFFFF;
+border-radius: 14px;
+width: 152px;
+height: 42px;
+
+
+}
+
+.vector5 {
+position: absolute;
+width: 32px;
+height: 32px;
+border: 12.5833px solid #000000;
+border-radius: 13px;
+margin: 3308px 1304px 1158px 104px;
+background-color: #000000;
+}
+
+.sekynda2 {
+	position: absolute;
+	height: 16px;
+	width: 15.25px;
+	margin: 3442px 289.38px 40px 1135.38px;
+}
+
+.sekyndatext2 {
+	position: absolute;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+
+color: #FFFFFF;
+	height: 12px;
+width: 22px;
+margin: 3441px 261px 45px 1157px;
+
+}
+
+.fokys2 {
+	position: absolute;
+	height: 16px;
+width: 16px;
+margin: 3442px 229px 40px 1195px;
+}
+
+.fokystext2 {
+	position: absolute;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+
+color: #FFFFFF;
+	height: 12px;
+width: 28px;
+margin: 3441px 195px 45px 1217px;
+	
+}
+
+.isoo2 {
+	position: absolute;
+	height: 16px;
+width: 32px;
+margin: 3442px 147px 40px 1261px;
+}
+
+.isootext2 {
+	position: absolute;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+
+color: #FFFFFF;
+	height: 12px;
+width: 20px;
+margin: 3441px 120px 45px 1300px;
+}
+
+.city2 {
+	position: absolute;
+	height: 16px;
+width: 10px;
+margin: 3442px 94px 40px 1336px;
+}
+
+.citytext2 {
+	position: absolute;
+
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	
+	
+	
+	color: #FFFFFF;
+	height: 12px;
+width: 49px;
+margin: 3441px 40px 45px 1351px;
+}
+
+											/*--делаем картинку с кустом и надписями */
+
+.cyst {
+	position: absolute;
+	margin-top: 3498px;
+	height: 600px;
+}
+
+.monstera {
+	position: absolute;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+letter-spacing: 2px;
+text-transform: uppercase;
+margin: 3758px 209px 320px 1080px;
+color: #FFFFFF;
+
+}
+
+.vestu {
+	position: absolute;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+margin: 3778px 87px 260px 1080px;
+
+
+color: #C0C0C0;
+
+	height: 60px;
+width: 273px;
+
+
+}
+
+.sekynda3 {
+	position: absolute;
+	height: 16px;
+width: 15.25px;
+margin: 4042px 327.38px 40px 1097.38px;
+}
+
+.sekyndatext3 {
+	position: absolute;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+margin: 4041px 280px 45px 1119px;
+color: #FFFFFF;
+	height: 12px;
+	width: 41px;
+}
+
+.fokys3{
+	position: absolute;
+	height: 16px;
+width: 16px;
+margin: 4042px 248px 40px 1176px;
+
+}
+
+.fokystext3{
+	position: absolute;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+margin: 4041px 215px 45px 1198px;
+color: #FFFFFF;
+	height: 12px;
+	width: 27px;
+}
+
+.isoo3 {
+	position: absolute;
+	height: 16px;
+width: 32px;
+margin: 4042px 167px 40px 1241px;
+
+}
+
+.isootext3 {
+	position: absolute;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+margin: 4041px 140px 45px 1280px;
+color: #FFFFFF;
+	height: 12px;
+width: 20px;
+
+}
+
+.city3 {
+	position: absolute;
+	height: 16px;
+width: 10px;
+margin: 4042px 114px 40px 1316px;
+
+}
+
+.citytext3 {
+	position: absolute;
+
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	margin: 4041px 40px 45px 1331px;
+	color: #FFFFFF;
+	height: 12px;
+width: 69px;
+
+}
+
+									/* делаем черный фон с надписями и логотипами компаний */
+
+.past {
+
+position: absolute;
+width: 229px;
+height: 42px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 42px;
+margin: 4211px 605px 345px 606px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.trusted {
+	position: absolute;
+width: 441px;
+height: 30px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+margin: 4268px 499px 300px 500px;
+text-align: center;
+
+color: #C0C0C0;
+}
+
+.hill{
+	position: absolute;
+	height: 30px;
+width: 128px;
+margin: 4404px 1130px 164px 182px;
+
+}
+
+.riks {
+	position: absolute;
+	height: 78px;
+width: 128px;
+margin: 4380px 893px 140px 419px;
+
+}
+
+.studio {
+	position: absolute;
+	height: 20px;
+width: 128px;
+margin: 4409px 656px 169px 656px;
+}
+
+.chill {
+	position: absolute;
+	height: 36px;
+width: 128px;
+margin: 4401px 419px 161px 893px;
+
+}
+
+.stok {
+	position: absolute;
+	height: 32px;
+width: 128px;
+margin: 4403px 182px 163px 1130px;
+}
+
+				/* делаем ночное небо с горами */
+
+.noch {
+	position: absolute;
+height: 600px;
+margin-top: 4598px;
+}
+
+.star {
+	position: absolute;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin: 4848px 106px 330px 1080px;
+	height: 20px;
+width: 254px;
+
+
+}
+
+.nulla {
+	position: absolute;
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	
+	
+	color: #C0C0C0;
+	margin: 4868px 119px 250px 1080px;
+	height: 80px;
+width: 241px;
+
+
+}
+
+.sekynda4 {
+	position: absolute;
+	height: 16px;
+width: 15.25px;
+margin: 5142px 259.38px 40px 1165.38px;
+
+}
+
+.sekyndatext4 {
+	position: absolute;
+	height: 12px;
+	width: 12px;
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	
+	
+	
+	color: #FFFFFF;
+	margin: 5141px 241px 45px 1187px;
+	
+}
+
+.fokys4 {
+	position: absolute;
+	height: 16px;
+width: 16px;
+margin: 5142px 209px 40px 1215px;
+
+}
+
+.fokystext4 {
+	position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+color: #FFFFFF;
+margin: 5141px 185px 45px 1237px;
+	height: 12px;
+width: 18px;
+
+}
+
+.isoo4 {
+	position: absolute;
+	height: 16px;
+width: 32px;
+margin: 5142px 137px 40px 1271px;
+
+}
+
+.isootext4 {
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	color: #FFFFFF;
+	margin: 5141px 106px 45px 1310px;
+		height: 12px;
+	width: 24px;
+}
+
+.city4 {
+	position: absolute;
+	height: 16px;
+width: 10px;
+margin: 5142px 80px 40px 1350px;
+}
+
+.citytext4 {
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	color: #FFFFFF;
+	margin: 5141px 40px 45px 1365px;
+		height: 12px;
+	width: 35px;
+}
+
+					/*--делаем оставшиеся надписи на чёрном фоне--*/
+
+.needhelp {
+	position: absolute;
+width: 571px;
+height: 84px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 42px;
+margin: 5311px 434px 217px 435px;
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.were {
+	position: absolute;
+width: 224px;
+height: 30px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+margin: 5410px 608px 172px 608px;
+
+text-align: center;
+
+color: #C0C0C0;
+
+}
+
+.getit	{
+	position: absolute;
+	
+height: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+
+letter-spacing: 0.4px;
+
+color: #000000;
+background: #FFFFFF;
+height: 42px;
+width: 152px;
+border-radius: 14px;
+margin: 5462px 643px 108px 643px;
+padding: 10px 10px 13px 40px;
+}
+
+.vector6 {
+	position: absolute;
+width: 32px;
+height: 32px;
+border: 12.5833px solid #000000;
+border-radius: 13px;
+margin: 5467px 761px 113px 647px;
+background-color: #000000;
+
+}
+
+.logo2 {
+	position: absolute;
+	height: 31px;
+width: 128px;
+margin: 5704px 1176px 521px 136px;
+
+}
+.photovideo {
+	position: absolute;
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+height: 20px;
+width: 440px;
+
+margin: 5755px 864px 481px 136px;
+
+
+color: #C0C0C0;
+
+}
+
+.business {
+	position: absolute;
+	height: 20px;
+	width: 143px;
+	
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+margin: 5704px 451px 532px 846px;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #C0C0C0;
+
+}
+
+.spis1 {
+	position: absolute;
+	margin: 5734px 411.61px 412px 846.39px;
+	height: 110px;
+width: 182px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+line-height: 2;
+
+}
+
+.pages {
+	position: absolute;
+height: 20px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+
+letter-spacing: 2px;
+text-transform: uppercase;
+margin: 5704px 300px 532px 1083px;
+color: #C0C0C0;
+
+}
+
+.spis2 {
+	position: absolute;
+	margin: 5734px 200px 340px 1083px;
+	height: 110px;
+width: 282px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+line-height: 2;
+
+}
+
+.rectangle {
+	position: absolute;
+	height: 2px;
+	width: 1168px;
+	
+	
+
+background: #FFFFFF;
+border-radius: 0px;
+	margin: 5940px 136px 314px 136px;
+}
+
+.subscribe {
+	position: absolute;
+	height: 20px;
+	width: 280px;
+	
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+margin: 5978px 1024px 258px 136px;
+}
+
+.readab {
+	position: absolute;
+	height: 20px;
+	width: 224px;
+	
+	
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+
+margin: 6018px 1080px 218px 136px;
+
+color: #C0C0C0;
+}
+
+.pusto {
+	box-sizing: border-box;
+
+	position: absolute;
+	height: 52px;
+width: 458px;
+
+
+margin: 5982px 136px 222px 846px;
+	background: #F9FAFB;
+	border: 1px solid #E5E7EB;
+	border-radius: 12px;
+}
+
+.vector7 {
+	position: absolute;
+	height: 30px;
+	width: 63px;
+	
+	margin: 5993px 142px 233px 1235px;
+
+
+background: #000000;
+border-radius: 11px;
+}
+
+.rectangle2 {
+	position: absolute;
+	height: 2px;
+	width: 1168px;
+	
+	
+
+background: #FFFFFF;
+border-radius: 0px;
+	margin: 6074px 136px 180px 136px;
+}
+
+.aperinc {
+	position: absolute;
+	height: 20px;
+	width: 336px;
+
+	
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+margin: 6132px 968px 104px 136px;
+
+color: #C0C0C0;
+
+}
+
+.lice {
+	position: absolute;
+	height: 20px;
+	width: 64px;
+	
+	
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+margin: 6132px 904px 104px 472px;
+
+
+color: #C0C0C0;
+
+}
+
+.twit {
+	position: absolute;
+	height: 19.5px;
+width: 24px;
+
+margin: 6132px 224px 102.25px 1192px;
+}
+
+.inst {
+	position: absolute;
+	height: 24px;
+width: 24px;
+
+margin: 6132px 180px 100px 1236px;
+}
+
+.face {
+	position: absolute;
+	height: 24px;
+width: 11.25px;
+
+margin: 6132px 142.38px 100px 1286.38px;
+}
